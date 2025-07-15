@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>GP Finder</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=Poppins:wght@400;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h1>Find Nearest GPs</h1>
+        <form id="locationForm">
+            <label for="locationInput">Enter your location:</label>
+            <input type="text" id="user-address" name="user-address" required placeholder="e.g., 1 Lovers Walk, Rondebosch, Capetown, 7700">
+            <button id="searchBtn" type="submit">Find nearest GP</button>
+        </form>
+        <div id="gpResults"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
